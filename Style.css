@@ -1,5 +1,6 @@
 body {
-  background-color: powderblue;
+  background: rgb(177,172,255);
+  background: linear-gradient(180deg, rgba(177,172,255,1) 0%, rgba(11,0,51,1) 100%);
 }
 h1 {
   color = "blue"
