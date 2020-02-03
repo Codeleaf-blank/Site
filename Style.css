@@ -4,5 +4,6 @@ body {
 }
 h1 {
   color = "blue"
-  font-size = 120%
+  font-family: verdana;
+  text-align: center
 }
