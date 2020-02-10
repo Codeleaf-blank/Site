@@ -20,15 +20,15 @@ body  {
 }
 
 #post1 {
-  background-image: 'T1.PNG';
+  background-image: url("T1.PNG");
 }
 
 #post2 {
-  background-image: 't2.PNG';
+  background-image: url("t2.PNG");
 }
 
 #post3 {
-  background-image: "t3.png";
+  background-image: url("t3.png");
 }
 
 #post4 {
