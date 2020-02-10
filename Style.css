@@ -1,43 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 html, body { height: 100%}
 
-body {
-  align-items: center;
-  background: #642B73;
-  background: linear-gradient(to bottom, #C6426E, #642B73);
-  display: flex;
-  font-family: 'Open Sans', sans;
-  justify-content: center;
-  overflow: hidden;
-  perspective: 1800px;
+body  {
+  margin: 0;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', sans-serif;
+  font-size: 60px;
   text-align: center;
-  margin: 0 20px;
+  font-weight: 700;
 }
 
-h1 {
-  color: #3e3e42;
-  font-size:32px;
-  font-weight: 800;
-  letter-spacing: -1px;
-  margin-bottom: 30px;
-  transform: translateZ(35px);
+.post {
+  padding: 5em 0;
+  background: 50% 50% / cover no-repeat;
 }
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+
+.stick {
+  background-attachment: fixed;
 }
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+
+#post1 {
+  background-image: 'T1.PNG';
 }
-.parallax__layer--base {
-  transform: translateZ(0);
+
+#post2 {
+  background-image: 't2.PNG';
 }
-.parallax__layer--back {
-  transform: translateZ(-1px);
+
+#post3 {
+  background-image: "t3.png";
+}
+
+#post4 {
+  background-image: url("https://unsplash.it/1024/768?image=967");
+}
+
+#post5 {
+  background-image: url("https://unsplash.it/1024/768?image=815");
 }
