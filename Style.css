@@ -10,6 +10,11 @@ body  {
   font-weight: 700;
 }
 
+
+.upper_text {
+	padding 10px 0;
+	text-align: left;
+}
 .post {
   padding: 5em 0;
   background: 50% 50% / cover no-repeat;
