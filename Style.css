@@ -16,10 +16,11 @@ background-color: black;
 }
 	
 .upper_text {
-	width:75%;
+	width:50%;
+	height:min-content;
 	text-align:left;
 	padding-top: 20px;
-	padding-left: 100px;
+	padding-left: 50px;
 	font-size: 40px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	line-height: 130%;
@@ -40,8 +41,8 @@ background-color: black;
 
 #post1 {
   background-image: url('Robolong.png');
-  background-size: cover;
-  
+  background-size: contain;
+  padding:1em 0;
 }
 
 #post2 {
