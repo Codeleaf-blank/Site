@@ -41,7 +41,7 @@ background-color: black;
 
 #post1 {
   background-image: url('Robolong.png');
-  background-size: contain;
+  background-size: cover;
   padding:1em 0;
 }
 
