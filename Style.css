@@ -16,7 +16,7 @@ body  {
 	text-align: left;
 }
 .post {
-  padding: 15px 0;
+  padding: 5em 0;
   background: 50% 50% / cover no-repeat;
 }
 
@@ -27,7 +27,6 @@ body  {
 #post1 {
   background-image: url("T1.PNG");
   text-align: left;
-  
 }
 
 #post2 {
