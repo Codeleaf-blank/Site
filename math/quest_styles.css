@@ -1,0 +1,25 @@
+.head {
+	font-family: 'Rubik Mono One', sans-serif;
+	text-align: center;
+	background-color: #DDDDDD;
+	width:100%;
+	height:110px;
+	margin-top:20px;
+	padding-top:20px;
+}
+.full_box {
+	text-align:center
+}
+.below_info {
+	display:inline;
+	text-align:left;
+	width:30%;
+	padding: 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	background-color: #DDDDDD;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.image_box {
+	display:inline;
+}
