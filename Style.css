@@ -30,9 +30,12 @@ background-color: black;
   background: 50% 50% / cover no-repeat;
 }
 .descriptionText {
+	padding-top:40px;
+	width:50%;
+	text-align:left;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	color: white;
-	font-size: 22px;
+	font-size: 42px;
 }
 
 .stick {
